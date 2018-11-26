@@ -20,8 +20,8 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
+	"github.com/istream-philion/cowyo/encrypt"
 	"github.com/jcelliott/lumber"
-	"github.com/schollz/cowyo/encrypt"
 )
 
 const minutesToUnlock = 10.0
